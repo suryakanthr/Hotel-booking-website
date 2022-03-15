@@ -9,13 +9,25 @@
 </head>
 <body>
     <div id="Header Div">
-        <img src="./assests/images/logo.png" height="100px" width="100px" alt="logo">
+        <a href="./index.html"><img src="./assests/images/logo.png" height="100px" width="100px" alt="logo"></a>
         <a href="./login.html">Login</a>
     </div>
-    
+
     <div id="Content Div">
         <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="Raddisson Blu">
-        <a href="./payment.html"><p>Book Now</p></a>
+        <form action="./payment.html" method="get">
+            <label for="Adults">Adults: </label>
+            <input type="number" name="Adults" id="Adults" min="1"><br>
+            <label for="Name">Name: </label>
+            <input required type="text" name="Name" id="Name"><br>
+            <label for="Fromdate">From Date: </label>
+            <input required type="date" name="Fromdate" id="Fromdate"><br>
+            <label for="Todate">To Date: </label>
+            <input type="date" name="Todate" id="Todate"><br>
+            <label for="">Total: </label>
+            <input readonly type="number" name="Total" id="Total"><br>
+            <button type="submit">Book Now</button>
+        </form>
         <h3>Raddisson Blu Hotel</h3>
         <p>RATING</p>
         <p>5 Star</p>
@@ -32,7 +44,7 @@
     </div>
 
     <div id="Footer Div">
-        <a  href="./contact.html" target="_blank">Contact Us</a><br>
+        <a  href="./contact.html" >Contact Us</a><br>
         <a  href="https://www.facebook.com/" target="_blank"><img class="socialmedia" src="./assests/images/facebook.png" alt="facebook"></a>
         <a  href="https://www.instagram.com/" target="_blank"><img class="socialmedia" src="./assests/images/instagram.png" alt="instagram"></a>
         <a  href="https://twitter.com/explore" target="_blank"><img class="socialmedia" src="./assests/images/twitter.png" alt="twitter"></a>
