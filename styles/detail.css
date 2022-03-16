@@ -1,0 +1,17 @@
+.hotel-details{
+    height: 500px;
+    width: 500px;
+    margin: 2% 4% 0%;
+}
+
+/* #content-div > * {
+    margin-left: 4%;
+} */
+
+#form{
+    margin: 0% 4% 1%;
+}
+
+#description {
+    margin: 1% 4% 2%;
+}

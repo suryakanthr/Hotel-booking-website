@@ -1,0 +1,25 @@
+#hotel-payment {
+    background-color: rgb(132,136,139);
+    width: 50%;
+    height: 20%;
+    margin: 0 auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#customer-details {
+    margin: 2%;
+}
+
+#bill-details {
+    border: 1px solid black;
+    margin: 2%;
+    border-radius: 5px;
+    padding: 1% 2%;
+}
+
+img {
+    height: 500px;
+    width: 500px;
+}
+

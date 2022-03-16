@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/common.css">
-    <link rel="stylesheet" href="./payment.html">
+    <link rel="stylesheet" href="./styles/payment.css">
     <title>Payment</title>
 </head>
 <body>
@@ -14,18 +14,28 @@
         <a href="./login.html">Login</a>
     </header>
         
-    <div>
-        <img class="hotel-details" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="Raddisson Blu">
-        <h3>Raddisson Blu Hotel</h3>
-        <p>#38 of 1,289 hotels in New Delhi</p>
-        <p>National Highway 8, New Delhi 110017 India</p>
-        <p> <b>Name:</b> John Doe</p>
-        <p><b>Number of Adults:</b> 2</p>
-        <p><b>Check-in Date:</b> 06/06/2020</p>
-        <p><b>Check-out Date:</b> 08/06/2020</p>
-        <p><b>Tariff Breakdown:</b> Rs.1000 x 2 Adults x 5 Nights</p>
-        <p><b>Total Amount</b> Rs:10000</p>
+    <div id="content-div">
+        <div id="hotel-payment">
+            <img class="hotel-details" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="Raddisson Blu">
+            <h3>Raddisson Blu Hotel</h3>
+            <p>#38 of 1,289 hotels in New Delhi</p>
+            <p>National Highway 8, New Delhi 110017 India</p>
+        </div>
+
+        <div id="customer-details">
+            <p> <b>Name:</b> John Doe</p>
+            <p><b>Number of Adults:</b> 2</p>
+            <p><b>Check-in Date:</b> 06/06/2020</p>
+            <p><b>Check-out Date:</b> 08/06/2020</p>
+        </div>
+        
+        <div id="bill-details">
+            <p><b>Tariff Breakdown:</b> Rs.1000 x 2 Adults x 5 Nights</p>
+            <p><b>Total Amount</b> Rs:10000</p>
+        </div>
+        
         <a href="#">Pay Now</a>
+        
     </div>
 
     <footer>
