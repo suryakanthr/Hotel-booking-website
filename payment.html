@@ -6,12 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/common.css">
     <link rel="stylesheet" href="./styles/payment.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     <title>Payment</title>
 </head>
 <body>
-    <header>
-        <a  href="./index.html"><img class="logo" src="./assests/images/logo.png"  alt="logo"></a>
-        <a href="./login.html">Login</a>
+    <header id="header-div">
+        
+        <a href="./index.html"><img id="logo"  src="./assests/images/logo.png" alt="logo"></a>
+
+        <a id="login-bt" href="./login.html">Login</a>
+    
     </header>
         
     <div id="content-div">
@@ -34,16 +38,27 @@
             <p><b>Total Amount</b> Rs:10000</p>
         </div>
         
-        <a href="#">Pay Now</a>
+        <div style="height: 100px;">
+            <span id="paynow">
+                <a href="#">Pay Now</a>
+            </span>
+        </div>
+        
         
     </div>
 
-    <footer>
-        <a  href="./contact.html" >Contact Us</a><br>
-        <a  href="https://www.facebook.com/" target="_blank"><img class="socialmedia" src="./assests/images/facebook.png" alt="facebook"></a>
-        <a  href="https://www.instagram.com/" target="_blank"><img class="socialmedia" src="./assests/images/instagram.png" alt="instagram"></a>
-        <a  href="https://twitter.com/explore" target="_blank"><img class="socialmedia" src="./assests/images/twitter.png" alt="twitter"></a>
-        <span><br>&#169; 2020 ROOM SEARCH PVT. LTD.</span>
+    <footer id="footer-div">
+
+        <a   href="./contact.html" ><span id="contact-us">Contact Us</span></a>
+
+        <div id="socialmedia-links">
+            <a  href="https://www.facebook.com/" target="_blank"><img class="socialmedia" src="./assests/images/facebook.png" alt="facebook"></a>
+            <a  href="https://www.instagram.com/" target="_blank"><img class="socialmedia" src="./assests/images/instagram.png" alt="instagram"></a>
+            <a  href="https://twitter.com/explore" target="_blank"><img class="socialmedia" src="./assests/images/twitter.png" alt="twitter"></a>
+        </div>
+        
+        <span id="copyright">&#169; 2020 ROOM SEARCH PVT. LTD.</span>
+
     </footer>
     
 </body>

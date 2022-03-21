@@ -3,7 +3,7 @@
     width: 22px;
 }
 
-.logo{
+#logo{
     height: 60px;
     width: 60px;
 }
@@ -13,19 +13,73 @@
     width: 150px;;
 }
 
-body {
-    height: 100%;
-    width: 100%;
+html, body{
+    min-height: 100%;
+    min-width: 100%;
     margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
     background-color: #e0e0e0;
-}
-
-html {
-    height: 100%;
-    width: 100%;
+    font-family: 'Ubuntu',sans-serif;
+    color: black;
 }
 
 header,footer{
     background-color: rosybrown;
 }
+
+#content-div {
+    height: 80%;;
+}
+
+#header-div{
+    position: sticky;
+    top:0;
+}
+
+#header-div,#footer-div{
+    height: 70px;   
+}
+
+#footer-div {
+    position: sticky;
+    bottom: 0;
+}
+
+#login-bt {
+    margin-top: 25px;
+    margin-right: 25px;
+    float: right;
+}
+
+#contact-us {
+    display: inline;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+#socialmedia-links{
+    display: inline;
+    float: right;
+    margin-top:  25px;
+    margin-right: 20px;
+}
+
+#copyright {
+    display: inline;
+    margin-left: 650px;
+    font-size: 10px;
+    position: absolute;
+    margin-top: 50px;
+}
+
+a{
+    color: black;
+}
+
+
+
+
 
