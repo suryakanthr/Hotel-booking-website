@@ -1,21 +1,24 @@
 #hotel-payment {
-    background-color: rgb(132,136,139);
+    background-color: rgb(132, 136, 139);
     width: 50%;
     height: 20%;
     margin: 0 auto;
     margin-top: 2%;
     margin-bottom: 2%;
+    display: flex;
+    flex-direction: row;
 }
 
 #customer-details {
-    margin: 2%;
+    /* margin: 2%; */
+    align-self: center;
 }
 
 #bill-details {
-    border: 1px solid black;
-    margin: 2%;
+    /* margin: 2%; */
     border-radius: 5px;
-    padding: 1% 2%;
+    /* padding: 1% 2%; */
+    align-self: center;
 }
 
 img {
@@ -25,7 +28,36 @@ img {
 
 #paynow {
     color: black;
+    align-self: center;
     /* justify-content: center; */
     
 }
 
+#content-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.hotel-details{
+    max-height: 300px;
+    max-width: 270px;
+}
+
+#captions {
+    margin: 0 auto;
+    align-self: center;
+}
+
+#payment-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 2%;
+    background-color: rosybrown;
+}
+
+b{
+    font-family: cursive;
+}

@@ -20,30 +20,49 @@
 
     <div id="content-div">
         
-        <img class="hotel-details" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="Raddisson Blu">
-        
-        <div id="form">
-            <form  action="./payment.html" method="get">
-                <label for="Adults">Adults: </label>
-                <input type="number" name="Adults" id="Adults" min="1" required><br>
-                <label for="Name">Name: </label>
-                <input required type="text" name="Name" id="Name"><br>
-                <label for="Fromdate">From Date: </label>
-                <input required type="date" name="Fromdate" id="Fromdate"><br>
-                <label for="Todate">To Date: </label>
-                <input type="date" name="Todate" id="Todate" required><br>
-                <label for="">Total: </label>
-                <input readonly type="number" name="Total" id="Total"><br>
-                <button type="submit">Book Now</button>
-            </form>
+        <div id="img-form">
+            <div id="hotel-img">
+                <img class="hotel-details" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="Raddisson Blu">
+            </div>
+            
+            <div id="form">
+                <form  action="./payment.html" method="get">
+  
+                    <ul id="form-ul">
+                      <li id="form-row">
+                         <label for="Adults">Adults: </label>
+                          <input type="number" name="Adults" id="Adults" min="1" required>
+                      </li>
+                      <li id="form-row">
+                        <label for="Name">Name: </label>
+                        <input required type="text" name="Name" id="Name">
+                      </li>
+                      <li id="form-row">
+                        <label for="Fromdate">From Date: </label>
+                        <input required type="date" name="Fromdate" id="Fromdate">
+                      </li>
+                      <li id="form-row">
+                        <label for="Todate">To Date: </label>
+                        <input type="date" name="Todate" id="Todate" required>
+                      </li>
+                      <li id="form-row">
+                        <label for="Total">Total: </label>
+                        <input  readonly type="number" name="Total" id="Total">
+                      </li>
+                      <br>
+                      <button type="submit">Book Now</button>
+                  </form>
+                <!-- <button type="submit">Book Now</button> -->
+            </div>
+
         </div>
         
-
+           
         <div id="description">
             <h3>Raddisson Blu Hotel</h3>
-            <p>RATING</p>
+            <h5>RATING</h5>
             <p>5 Star</p>
-            <p>AMENITIES</p>
+            <h5>AMENITIES</h5>
             <ul>
                 <li>Room service</li>
                 <li>Restaurant</li>
@@ -59,7 +78,9 @@
 
     <footer id="footer-div">
 
-        <a   href="./contact.html" ><span id="contact-us">Contact Us</span></a>
+        <a id="contact-us"  href="./contact.html" >Contact Us</a>
+
+        <p id="copyright">&#169; 2020 ROOM SEARCH PVT. LTD.</p>
 
         <div id="socialmedia-links">
             <a  href="https://www.facebook.com/" target="_blank"><img class="socialmedia" src="./assests/images/facebook.png" alt="facebook"></a>
@@ -67,8 +88,6 @@
             <a  href="https://twitter.com/explore" target="_blank"><img class="socialmedia" src="./assests/images/twitter.png" alt="twitter"></a>
         </div>
         
-        <span id="copyright">&#169; 2020 ROOM SEARCH PVT. LTD.</span>
-
     </footer>
         
 </body>

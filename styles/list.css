@@ -1,7 +1,9 @@
 .hotels-list {
     /* margin:2%;
     width: 40%; */
-    background-color: rgb(132,136,139);
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: row;
 }
 
 .hotels-list > p {
@@ -27,6 +29,17 @@
 
 td {
     padding: 35px;
+}
+
+.hotels {
+    height: 150px;
+    width: 150px;;
+}
+
+#captions {
+    float: right;
+    margin-top: 25px;
+    margin-left: 10px;
 }
 
 
