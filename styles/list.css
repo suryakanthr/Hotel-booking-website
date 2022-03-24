@@ -14,15 +14,6 @@
     /* margin: 0% 45%; */
 }
 
-#map-view {
-    display: none;
-}
-
-#list-view-bt {
-    margin-left: 45%;
-    margin-right: 5%;
-}
-
 #list-view-table {
     width:100%;
 }
@@ -38,9 +29,26 @@ td {
 
 #captions {
     float: right;
-    margin-top: 25px;
+    margin-top: 15px;
     margin-left: 10px;
+    color: black;
 }
+
+.form-inline{
+    margin: 0 auto;
+}
+
+#nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.hotels-list:hover{
+    background-color: rosybrown;
+}
+
+
 
 
 

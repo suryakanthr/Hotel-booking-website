@@ -27,8 +27,6 @@ header,footer{
     background-color: rosybrown;
 }
 
-
-
 #header-div{
     position: sticky;
     top:0;
@@ -40,6 +38,7 @@ header,footer{
 #header-div,#footer-div{
     height: 70px;   
     display: flex;
+    z-index: 1;
 }
 
 #footer-div {
@@ -93,7 +92,53 @@ a{
 #content-div{
     /* height: 80vh; */
     /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    z-index: -1;
 }
+
+#img-wrap {
+    position: relative;
+    height: 150px;
+    width: 150px;
+  }
+
+  #form-ul{
+    list-style-type:none;
+    padding:2%;
+    display:flex;
+    flex-direction:column;
+    /* align-items: stretch; */
+  }
+
+  #form-row{
+    /* width:100%; */
+    /* padding-top:1%;
+    padding-bottom:1%; */
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+  #form-row > input{
+    float:right;
+    width:60%;
+  }
+
+  #modal-login-bt,#book-now{
+      margin: 0 auto;
+  }
+
+  #exampleModal{
+      z-index: 100;
+  }
+
+  #content-div {
+    display: flex;
+}
+ 
+
+
+
 
 
 
