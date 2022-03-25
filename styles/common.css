@@ -128,10 +128,6 @@ a{
       margin: 0 auto;
   }
 
-  #exampleModal{
-      z-index: 100;
-  }
-
   #content-div {
     display: flex;
 }

@@ -162,6 +162,7 @@
           if(list.style.display === "none"){
               map_view_bt.classList.remove("btn-primary");
               map_view_bt.classList.add("btn-light");
+              list_view_bt.classList.remove("btn-light");
               list_view_bt.classList.add("btn-primary");
               map.style.display = "none";
               list.style.display = "initial";
@@ -172,6 +173,7 @@
           if(map.style.display === "none"){
               list_view_bt.classList.remove("btn-primary");
               list_view_bt.classList.add("btn-light");
+              map_view_bt.classList.remove("btn-light");
               map_view_bt.classList.add("btn-primary");
               list.style.display = "none";
               map.style.display = "initial";
