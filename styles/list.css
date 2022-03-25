@@ -48,6 +48,35 @@ td {
     background-color: rosybrown;
 }
 
+.score {
+    display: block;
+    font-size: 25px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .score-wrap {
+    display: inline-block;
+    position: relative;
+    height: 19px;
+  }
+  
+  .score .stars-active {
+    color: #EEBD01;
+    position: relative;
+    z-index: 10;
+    display: inline-block;
+  }
+  
+  .score .stars-inactive {
+    color: black;
+  /*   position: absolute; */
+    top: 0; 
+    left: 0; 
+  /*   -webkit-text-stroke: initial;  */
+  /*   overflow: hidden; */
+  }
+
 
 
 
