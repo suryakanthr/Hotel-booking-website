@@ -38,6 +38,8 @@ img {
     flex-direction: column;
 }
 
+
+
 .hotel-details{
     max-height: 300px;
     max-width: 270px;
@@ -61,3 +63,4 @@ img {
 b{
     font-family: cursive;
 }
+
