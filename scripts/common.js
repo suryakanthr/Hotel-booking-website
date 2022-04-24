@@ -1,3 +1,18 @@
+const settings = {
+	"async": true,
+	"crossDomain": true,
+	"url": "https://travel-advisor.p.rapidapi.com/locations/v2/auto-complete?query=eiffel%20tower&lang=en_US&units=km",
+	"method": "GET",
+	"headers": {
+		"X-RapidAPI-Host": "travel-advisor.p.rapidapi.com",
+		"X-RapidAPI-Key": "6168ab4efdmshcfc49d6e3154a40p109001jsn8cd3c6b8d322"
+	}
+};
+
+$.ajax(settings).done(function (response) {
+	console.log(response);
+});
+
 let headerTemplate = `<a href="./index.html"><img id="logo"  src="./assests/images/logo.png" alt="logo"></a>
     <button id="login-bt" type="button" onclick="loginFunc() ,disablePayNowBt()" class="btn btn-light" data-toggle="modal" data-target="#exampleModal">LOGIN</button>`
 document.getElementById("header-div").innerHTML = headerTemplate;
